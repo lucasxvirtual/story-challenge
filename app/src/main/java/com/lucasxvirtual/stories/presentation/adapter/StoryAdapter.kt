@@ -120,6 +120,7 @@ class StoryVideoViewHolder internal constructor(
 
     fun bind(story : Story) {
         binding.video.setVideoPath(story.largeUrl)
+        binding.video.seekTo(1)
         binding.video.setOnPreparedListener {
             it.isLooping = true
             binding.video.start()

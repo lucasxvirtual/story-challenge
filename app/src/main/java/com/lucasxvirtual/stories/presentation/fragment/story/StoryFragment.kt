@@ -9,6 +9,7 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
 import androidx.lifecycle.lifecycleScope
 import androidx.viewpager2.widget.ViewPager2
+import com.google.android.material.tabs.TabLayoutMediator
 import com.lucasxvirtual.stories.databinding.FragmentStoryBinding
 import com.lucasxvirtual.stories.presentation.adapter.StoryAdapter
 import dagger.hilt.android.AndroidEntryPoint
@@ -50,6 +51,7 @@ class StoryFragment : Fragment() {
         }
 
         setupViewPager(binding.viewPager, savedInstanceState)
+        TabLayoutMediator(binding.intoTabLayout, binding.viewPager) { _, _ ->}.attach()
 
         return binding.root
     }
