@@ -19,9 +19,8 @@ O app foi desenvolvido utilizando MVVM com Clean Architecture, está separado em
 ## TODO list:
   
   - Inserir loading
-  - Melhorar layout
   - Criar splash
   - Inserir ícones
-  - Inserir videos no formato m3u8 (streaming)
+  - Inserir videos no formato m3u8 para melhor visualização (streaming)
 
 
