@@ -1,26 +1,26 @@
 # story-challenge
 
-O app foi desenvolvido utilizando MVVM com Clean Architecture, está separado em quatro camadas: **Data, Domain, Presentation e DI (dependency injection)**
+The application was developed using MVVM with Clean Architecture, separated into four layers: ** Data, Domain, Presentation and DI (dependency injection) **
 
 <img src="/CA-MVVM.png" alt="MVVM com Clean Architecture"/>
 
-  ## Camada Data: 
-  responsável por decidir qual a fonte em que devem ser recuperados os dados (o aplicativo utiliza somente a rede, mas poderia ser incluído facilmente um banco local)
+  ## Layer Date:
+  responsible for deciding which source the data should be retrieved from (the application uses only the network, but a local database could easily be included)
   
-  ## Camada Domain:
-  contém os casos de uso da aplicação e é responsável por qualquer futura regra de negócio a ser implementada, contém as interfaces para diálogo com a camada de Data
+  ## Domain layer:
+  contains the use cases of the application and is responsible for any future business rules to be implemented, contains the interfaces wich the Data layer implements
   
-  ## Camada Presentation:
-  responsável por como os dados são apresentados na tela do celular
+  ## Presentation layer:
+  responsible for how the data is presented on the mobile screen
   
-  ## Camada DI:
-  responsável por injeção de dependências
+  ## DI layer:
+  responsible for the injection of the dependencies
   
 ## TODO list:
   
-  - Inserir loading
-  - Criar splash
-  - Inserir ícones
-  - Inserir videos no formato m3u8 para melhor visualização (streaming)
+  - Insert loading
+  - Create splash
+  - Insert icons
+  - Insert videos in m3u8 format for better viewing (streaming)
 
 
