@@ -1,6 +1,6 @@
 # story-challenge
 
-The application was developed using MVVM with Clean Architecture, separated into four layers: ** Data, Domain, Presentation and DI (dependency injection) **
+The application was developed using MVVM with Clean Architecture, separated into four layers: **Data, Domain, Presentation and DI (dependency injection)**
 
 <img src="/CA-MVVM.png" alt="MVVM com Clean Architecture"/>
 
